@@ -13,9 +13,9 @@ import crafttweaker.item.IItemStack;
   		 [<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>]]);
 
 // Minecraft Flint and Steel
-	recipes.remove("emp-flintandsteel", <minecraft:flint_and_steel>);
+	recipes.remove(<minecraft:flint_and_steel>);
 
-	recipes.addShaped(<minecraft:flint_and_steel>,
+	recipes.addShaped("emp-flintandsteel", <minecraft:flint_and_steel>,
  		[[<ore:ingotSteel>, null],
  		 [null, <minecraft:flint>]]);
 

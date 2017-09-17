@@ -103,7 +103,6 @@ key_quark.emote.shrug:0
 key_quark.emote.headbang:0
 key_quark.emote.weep:0
 key_quark.emote.facepalm:0
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -112,6 +111,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_keybind.baublesinventory:48
 key_key.betterquesting.quests:41
 key_key.xu2.searchForItems:20
