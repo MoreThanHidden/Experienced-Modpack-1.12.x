@@ -12,9 +12,10 @@ var Logs = [
     <natura:overworld_logs2:3>,  
     <natura:redwood_logs:*>, 
     <natura:nether_logs:0>, 
+    <natura:nether_logs2:0>,
     <natura:nether_logs:1>, 
-    <natura:nether_logs:2>, 
-    <natura:nether_logs2:*> 
+    <natura:nether_logs:2>
+     
 ] as IItemStack[];
 
 var Planks = [
@@ -53,7 +54,7 @@ for i, log in Logs {
     var plank = Planks[i];
     var stick = Sticks[i];
     recipes.removeShapeless(plank, [log]);
-    recipes.addShapeless("emp-" + plank.displayName, plank * 2, [log]);
+    recipes.addShapeless("emp-" + plank.name, plank * 2, [log]);
 	recipes.removeShaped(stick);
-	recipes.addShaped("emp-" + stick.displayName, stick * 2, [[plank],[plank]]);
+	recipes.addShaped("emp-" + stick.name, stick * 2, [[plank],[plank]]);
 }

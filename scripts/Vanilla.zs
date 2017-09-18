@@ -77,8 +77,8 @@ var Planks = [
 for i, log in Logs {
     var plank = Planks[i];
     recipes.removeShapeless(plank, [log]);
-    recipes.addShapeless("emp-" + plank.displayName, plank * 2, [log]);
+    recipes.addShapeless("emp-" + plank.name, plank * 2, [log]);
 }
 
 recipes.removeShaped(<minecraft:stick>);
-recipes.addShaped("emp-" + <minecraft:stick>.displayName, <minecraft:stick> * 2, [[<ore:plankWood>],[<ore:plankWood>]]);
+recipes.addShaped("emp-" + <minecraft:stick>.name, <minecraft:stick> * 2, [[<ore:plankWood>],[<ore:plankWood>]]);
