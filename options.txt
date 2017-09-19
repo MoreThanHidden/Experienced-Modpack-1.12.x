@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -91,15 +91,6 @@ key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
 key_psimisc.keybind:46
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -112,6 +103,15 @@ key_quark.emote.shrug:0
 key_quark.emote.headbang:0
 key_quark.emote.weep:0
 key_quark.emote.facepalm:0
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.betterquesting.quests:41
 key_key.xu2.searchForItems:20
@@ -188,7 +188,7 @@ key_invtweaks.key.sort:19
 key_Mekanism Item Mode Switch:50
 key_Mekanism Armor Mode Switch:34
 key_Mekanism Feet Mode Switch:35
-key_Mekanism Voice:22
+key_Mekanism Voice:181
 key_key.refinedstorage.focusSearchBar:15
 key_xreliquary.keybind.fortune_coin:0
 key_key.porterNextDestination:27

@@ -44,15 +44,82 @@ import crafttweaker.item.IItemStack;
 		 [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]]);
 
 
-//Block fixes must use compressor/macerator/tinkers
-	recipes.removeShapeless(<ore:gemDiamond> * 9);
-	recipes.removeShapeless(<ore:gemEmerald> * 9);
-	recipes.removeShapeless(<ore:ingotIron> * 9);
-	recipes.removeShapeless(<ore:ingotGold> * 9);
-	recipes.removeShaped(<ore:blockDiamond>);
-	recipes.removeShaped(<ore:blockEmerald>);
-	recipes.removeShaped(<ore:blockIron>);
-	recipes.removeShaped(<ore:blockGold>);
+//Ingot block fixes must use compressor/macerator/tinkers
+var Ingots = [
+	<ore:ingotIron>,
+	<ore:ingotGold>,
+	<ore:ingotEnderium>,
+	<ore:ingotLumium>,
+	<ore:ingotSignalum>,
+	<ore:ingotConstantan>,
+	<ore:ingotBronze>,
+	<ore:ingotInvar>,
+	<ore:ingotElectrum>,
+	<ore:ingotElectrumFlux>,
+	<ore:ingotSteel>,
+	<ore:ingotMithril>,
+	<ore:ingotIridium>,
+	<ore:ingotPlatnium>,
+	<ore:ingotNickel>,
+	<ore:ingotAluminum>,
+	<ore:ingotLead>,
+	<ore:ingotSilver>,
+	<ore:ingotTin>,
+	<ore:ingotCopper>,
+	<ore:ingotZinc>,
+	<ore:ingotTungstensteel>,
+	<ore:ingotTungsten>,
+	<ore:ingotTitanium>,
+	<ore:ingotChrome>,
+	<ore:ingotBrass>,
+	<ore:ingotAlubrass>,
+	<ore:ingotPigiron>,
+	<ore:ingotKnightslime>,
+	<ore:ingotManyullyn>,
+	<ore:ingotArdite>,
+	<ore:ingotCobalt>
+];
+
+var Blocks = [
+	<ore:blockIron>,
+	<ore:blockGold>,
+	<ore:blockEnderium>,
+	<ore:blockLumium>,
+	<ore:blockSignalum>,
+	<ore:blockConstantan>,
+	<ore:blockBronze>,
+	<ore:blockInvar>,
+	<ore:blockElectrum>,
+	<ore:blockElectrumFlux>,
+	<ore:blockSteel>,
+	<ore:blockMithril>,
+	<ore:blockIridium>,
+	<ore:blockPlatnium>,
+	<ore:blockNickel>,
+	<ore:blockAluminum>,
+	<ore:blockLead>,
+	<ore:blockSilver>,
+	<ore:blockTin>,
+	<ore:blockCopper>,
+	<ore:blockZinc>,
+	<ore:blockTungstensteel>,
+	<ore:blockTungsten>,
+	<ore:blockTitanium>,
+	<ore:blockChrome>,
+	<ore:blockBrass>,
+	<ore:blockAlubrass>,
+	<ore:blockPigiron>,
+	<ore:blockKnightslime>,
+	<ore:blockManyullyn>,
+	<ore:blockArdite>,
+	<ore:blockCobalt>
+];
+
+for i, ingot in Ingots {
+	var block = Blocks[i];
+	recipes.removeShapeless(block, ingot * 9);
+	recipes.removeShaped(block);
+}
 
 //Wood Fixes
 var Logs = [
@@ -77,8 +144,8 @@ var Planks = [
 for i, log in Logs {
     var plank = Planks[i];
     recipes.removeShapeless(plank, [log]);
-    recipes.addShapeless("emp-" + plank.name, plank * 2, [log]);
+    recipes.addShapeless("emp-" + plank.displayName, plank * 2, [log]);
 }
 
 recipes.removeShaped(<minecraft:stick>);
-recipes.addShaped("emp-" + <minecraft:stick>.name, <minecraft:stick> * 2, [[<ore:plankWood>],[<ore:plankWood>]]);
+recipes.addShaped("emp-stick", <minecraft:stick> * 2, [[<ore:plankWood>],[<ore:plankWood>]]);
