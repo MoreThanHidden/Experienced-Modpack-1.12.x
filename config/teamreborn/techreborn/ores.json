@@ -8,7 +8,7 @@
       "blockNiceName": "Galena",
       "meta": 0,
       "veinSize": 8,
-      "veinsPerChunk": 16,
+      "veinsPerChunk": 4,
       "minYHeight": 10,
       "maxYHeight": 60,
       "shouldSpawn": true
@@ -48,7 +48,7 @@
       "blockNiceName": "Bauxite",
       "meta": 4,
       "veinSize": 6,
-      "veinsPerChunk": 10,
+      "veinsPerChunk": 6,
       "minYHeight": 10,
       "maxYHeight": 60,
       "shouldSpawn": true
