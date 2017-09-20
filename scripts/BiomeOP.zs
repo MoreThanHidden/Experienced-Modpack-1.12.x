@@ -43,5 +43,5 @@ var biomesoplentyPlanks = [
 for i, log in biomesoplentyLogs {
     var plank = biomesoplentyPlanks[i];
     recipes.removeShapeless(plank, [log]);
-    recipes.addShapeless("emp-" + plank.displayName, plank * 2, [log]);
+    recipes.addShapeless(plank * 2, [log]);
 }

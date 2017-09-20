@@ -45,81 +45,71 @@ import crafttweaker.item.IItemStack;
 
 
 //Ingot block fixes must use compressor/macerator/tinkers
-var Ingots = [
-	<ore:ingotIron>,
-	<ore:ingotGold>,
-	<ore:ingotEnderium>,
-	<ore:ingotLumium>,
-	<ore:ingotSignalum>,
-	<ore:ingotConstantan>,
-	<ore:ingotBronze>,
-	<ore:ingotInvar>,
-	<ore:ingotElectrum>,
-	<ore:ingotElectrumFlux>,
-	<ore:ingotSteel>,
-	<ore:ingotMithril>,
-	<ore:ingotIridium>,
-	<ore:ingotPlatnium>,
-	<ore:ingotNickel>,
-	<ore:ingotAluminum>,
-	<ore:ingotLead>,
-	<ore:ingotSilver>,
-	<ore:ingotTin>,
-	<ore:ingotCopper>,
-	<ore:ingotZinc>,
-	<ore:ingotTungstensteel>,
-	<ore:ingotTungsten>,
-	<ore:ingotTitanium>,
-	<ore:ingotChrome>,
-	<ore:ingotBrass>,
-	<ore:ingotAlubrass>,
-	<ore:ingotPigiron>,
-	<ore:ingotKnightslime>,
-	<ore:ingotManyullyn>,
-	<ore:ingotArdite>,
-	<ore:ingotCobalt>
-];
+recipes.remove(<ore:blockIron>);
+recipes.remove(<ore:blockGold>);
+recipes.remove(<ore:blockEnderium>);
+recipes.remove(<ore:blockLumium>);
+recipes.remove(<ore:blockSignalum>);
+recipes.remove(<ore:blockConstantan>);
+recipes.remove(<ore:blockBronze>);
+recipes.remove(<ore:blockInvar>);
+recipes.remove(<ore:blockElectrum>);
+recipes.remove(<ore:blockElectrumFlux>);
+recipes.remove(<ore:blockSteel>);
+recipes.remove(<ore:blockMithril>);
+recipes.remove(<ore:blockIridium>);
+recipes.remove(<ore:blockPlatinum>);
+recipes.remove(<ore:blockNickel>);
+recipes.remove(<ore:blockAluminum>);
+recipes.remove(<ore:blockLead>);
+recipes.remove(<ore:blockSilver>);
+recipes.remove(<ore:blockTin>);
+recipes.remove(<ore:blockCopper>);
+recipes.remove(<ore:blockZinc>);
+recipes.remove(<ore:blockTungstensteel>);
+recipes.remove(<ore:blockTungsten>);
+recipes.remove(<ore:blockTitanium>);
+recipes.remove(<ore:blockChrome>);
+recipes.remove(<ore:blockBrass>);
+recipes.remove(<ore:blockAlubrass>);
+recipes.remove(<ore:blockPigiron>);
+recipes.remove(<ore:blockKnightslime>);
+recipes.remove(<ore:blockManyullyn>);
+recipes.remove(<ore:blockArdite>);
+recipes.remove(<ore:blockCobalt>);
+recipes.remove(<ore:ingotIron> * 9);
+recipes.remove(<ore:ingotGold> * 9);
+recipes.remove(<ore:ingotEnderium> * 9);
+recipes.remove(<ore:ingotLumium> * 9);
+recipes.remove(<ore:ingotSignalum> * 9);
+recipes.remove(<ore:ingotConstantan> * 9);
+recipes.remove(<ore:ingotBronze> * 9);
+recipes.remove(<ore:ingotInvar> * 9);
+recipes.remove(<ore:ingotElectrum> * 9);
+recipes.remove(<ore:ingotElectrumFlux> * 9);
+recipes.remove(<ore:ingotSteel> * 9);
+recipes.remove(<ore:ingotMithril> * 9);
+recipes.remove(<ore:ingotIridium> * 9);
+recipes.remove(<ore:ingotPlatinum> * 9);
+recipes.remove(<ore:ingotNickel> * 9);
+recipes.remove(<ore:ingotAluminum> * 9);
+recipes.remove(<ore:ingotLead> * 9);
+recipes.remove(<ore:ingotSilver> * 9);
+recipes.remove(<ore:ingotTin> * 9);
+recipes.remove(<ore:ingotCopper> * 9);
+recipes.remove(<ore:ingotZinc> * 9);
+recipes.remove(<ore:ingotTungstensteel> * 9);
+recipes.remove(<ore:ingotTungsten> * 9);
+recipes.remove(<ore:ingotTitanium> * 9);
+recipes.remove(<ore:ingotChrome> * 9);
+recipes.remove(<ore:ingotBrass> * 9);
+recipes.remove(<ore:ingotAlubrass> * 9);
+recipes.remove(<ore:ingotPigiron> * 9);
+recipes.remove(<ore:ingotKnightslime> * 9);
+recipes.remove(<ore:ingotManyullyn> * 9);
+recipes.remove(<ore:ingotArdite> * 9);
+recipes.remove(<ore:ingotCobalt> * 9);
 
-var Blocks = [
-	<ore:blockIron>,
-	<ore:blockGold>,
-	<ore:blockEnderium>,
-	<ore:blockLumium>,
-	<ore:blockSignalum>,
-	<ore:blockConstantan>,
-	<ore:blockBronze>,
-	<ore:blockInvar>,
-	<ore:blockElectrum>,
-	<ore:blockElectrumFlux>,
-	<ore:blockSteel>,
-	<ore:blockMithril>,
-	<ore:blockIridium>,
-	<ore:blockPlatnium>,
-	<ore:blockNickel>,
-	<ore:blockAluminum>,
-	<ore:blockLead>,
-	<ore:blockSilver>,
-	<ore:blockTin>,
-	<ore:blockCopper>,
-	<ore:blockZinc>,
-	<ore:blockTungstensteel>,
-	<ore:blockTungsten>,
-	<ore:blockTitanium>,
-	<ore:blockChrome>,
-	<ore:blockBrass>,
-	<ore:blockAlubrass>,
-	<ore:blockPigiron>,
-	<ore:blockKnightslime>,
-	<ore:blockManyullyn>,
-	<ore:blockArdite>,
-	<ore:blockCobalt>
-];
-
-for i, ingot in Ingots {
-	var block = Blocks[i];
-	recipes.removeShapeless(block, ingot * 9);
-	recipes.removeShaped(block);
-}
 
 //Wood Fixes
 var Logs = [
@@ -144,7 +134,7 @@ var Planks = [
 for i, log in Logs {
     var plank = Planks[i];
     recipes.removeShapeless(plank, [log]);
-    recipes.addShapeless("emp-" + plank.displayName, plank * 2, [log]);
+    recipes.addShapeless(plank * 2, [log]);
 }
 
 recipes.removeShaped(<minecraft:stick>);
