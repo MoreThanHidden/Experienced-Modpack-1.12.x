@@ -3,16 +3,16 @@
     "version": "1.12.1",
     "modLoaders": [
       {
-        "id": "forge-14.22.1.2481",
+        "id": "forge-14.22.1.2485",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Hidden's Tech Pack",
-  "version": "1.0",
-  "author": "morethanhidden",
+  "name": "Experienced Modpack 1.12.x",
+  "version": "0.2",
+  "author": "MoreThanHidden",
   "files": [
     {
       "projectID": 32274,
@@ -191,7 +191,7 @@
     },
     {
       "projectID": 59751,
-      "fileID": 2480074,
+      "fileID": 2481525,
       "required": true
     },
     {
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 79287,
-      "fileID": 2452291,
+      "fileID": 2481605,
       "required": true
     },
     {
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 59816,
-      "fileID": 2464836,
+      "fileID": 2481367,
       "required": true
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2480242,
+      "fileID": 2481427,
       "required": true
     },
     {
@@ -490,11 +490,6 @@
       "required": true
     },
     {
-      "projectID": 223525,
-      "fileID": 2470520,
-      "required": true
-    },
-    {
       "projectID": 241721,
       "fileID": 2452200,
       "required": true
@@ -535,16 +530,6 @@
       "required": true
     },
     {
-      "projectID": 246996,
-      "fileID": 2478718,
-      "required": true
-    },
-    {
-      "projectID": 237065,
-      "fileID": 2478720,
-      "required": true
-    },
-    {
       "projectID": 274041,
       "fileID": 2477725,
       "required": true
@@ -556,7 +541,7 @@
     },
     {
       "projectID": 233564,
-      "fileID": 2480251,
+      "fileID": 2481430,
       "required": true
     },
     {
@@ -567,6 +552,36 @@
     {
       "projectID": 228266,
       "fileID": 2466926,
+      "required": true
+    },
+    {
+      "projectID": 278385,
+      "fileID": 2481728,
+      "required": true
+    },
+    {
+      "projectID": 237065,
+      "fileID": 2482002,
+      "required": true
+    },
+    {
+      "projectID": 246996,
+      "fileID": 2481999,
+      "required": true
+    },
+    {
+      "projectID": 223525,
+      "fileID": 2482006,
+      "required": true
+    },
+    {
+      "projectID": 246183,
+      "fileID": 2481157,
+      "required": true
+    },
+    {
+      "projectID": 245211,
+      "fileID": 2469334,
       "required": true
     }
   ],
