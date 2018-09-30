@@ -2,7 +2,7 @@
   "outputs": [
     {
       "target": "log",
-      "weight": 32,
+      "weight": 24,
       "id": "OD_PREFIX:logWood"
     },
     {
@@ -11,8 +11,13 @@
       "id": "OD_PREFIX:treeSapling"
     },
     {
+      "target": "sapling",
+      "weight": 4,
+      "id": "ic2:sapling"
+    },
+    {
       "target": "leaves",
-      "weight": 64,
+      "weight": 48,
       "id": "OD_PREFIX:treeLeaves"
     },
     {
@@ -224,6 +229,11 @@
       "target": "green",
       "weight": 8,
       "id": "minecraft:double_plant:3"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "OD_PREFIX:mysticFlower"
     }
   ]
 }
