@@ -138,6 +138,6 @@ var forestryPlanks = [
 
 for i, log in forestryLogs {
     var plank = forestryPlanks[i];
-    recipes.remove(plank * 4, [log]);
+    recipes.remove(plank * 4);
     recipes.addShapeless(plank * 2, [log]);
 }

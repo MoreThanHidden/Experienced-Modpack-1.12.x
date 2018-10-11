@@ -53,7 +53,7 @@ var Sticks = [
 for i, log in Logs {
     var plank = Planks[i];
     var stick = Sticks[i];
-    recipes.remove(plank * 4, [log]);
+    recipes.remove(plank * 4);
     recipes.addShapeless(plank * 2, [log]);
 	recipes.removeShaped(stick * 4);
 	recipes.addShaped(stick * 2, [[plank],[plank]]);
