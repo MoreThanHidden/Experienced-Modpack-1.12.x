@@ -154,6 +154,6 @@ var extratreesPlanks = [
 
 for i, log in extratreesLogs {
     var plank = extratreesPlanks[i];
-    recipes.removeShapeless(plank, [log]);
+    recipes.remove(plank * 4, [log]);
     recipes.addShapeless(plank * 2, [log]);
 }
