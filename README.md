@@ -29,7 +29,6 @@ A Hardened Modpack for Minecraft 1.12.x
 <li><a href="https://minecraft.curseforge.com/mc-mods/250957">Tinkers' Tool Leveling (by bonusboni)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/224218">Compact Machines (by Davenonymous)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/242638">Industrial Craft (by Player)</a></li>
-<li><a href="https://minecraft.curseforge.com/mc-mods/225957">Hardcore Darkness (by lumien231)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/247921">ZeroCore (by ZeroNoRyouki)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/254268">TorchMaster (by xalcon)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/226958">Soul Shards: The Old Ways (by SgtPunishment)</a></li>
@@ -46,7 +45,6 @@ A Hardened Modpack for Minecraft 1.12.x
 <li><a href="https://minecraft.curseforge.com/mc-mods/237903">Reborn Core (by modmuss50)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/233398">Deep Resonance (by McJty)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/69162">CoFH Core (by TeamCoFH)</a></li>
-<li><a href="https://minecraft.curseforge.com/mc-mods/268324">Blur (by tterrag1098)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/250363">AutoRegLib (by Vazkii)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/237065">ContentTweaker (by jaredlll08)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/71738">ShetiPhianCore (by ShetiPhian)</a></li>
@@ -155,8 +153,17 @@ A Hardened Modpack for Minecraft 1.12.x
 <li><a href="https://minecraft.curseforge.com/mc-mods/61811">Buildcraft (by CovertJaguar)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/277938">Integration Foregoing (by Jacky1356400)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/229049">Project Red - World (by Mr_TJP)</a></li>
-<li><a href="https://minecraft.curseforge.com/mc-mods/227441">Fullscreen Windowed (Borderless) for Minecraft (by hancin)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/291737">Thermal Innovation (by TeamCoFH)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/261348">Avaritia 1.1x (by brandon3055)</a></li>
 <li><a href="https://minecraft.curseforge.com/mc-mods/224599">Mystcraft (by XCompWiz)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/225957">Hardcore Darkness (by lumien231)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/226294">MineTweaker RecipeMaker (by DoubleDoorDevelopment)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/229876">BetterFps (by Guichaguri)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/301795">Thaumic Gadgets (by Ancient_Darth)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/231868">EnderCore (by tterrag1098)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/64578">Ender IO (by CrazyPants_MC)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/292491">Tinkered Hegemony (by asiekierka)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/60089">Mouse Tweaks (by YaLTeR97)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/229084">Portal Gun (by iChun)</a></li>
+<li><a href="https://minecraft.curseforge.com/mc-mods/229072">Gravity Gun (by iChun)</a></li>
 </ul>
